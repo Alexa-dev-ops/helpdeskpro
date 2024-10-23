@@ -1,5 +1,5 @@
 plugins {
-    id 'com.google.gms.google-services' version '4.4.2' apply false
+    id 'com.google.gms.google-services' version '4.3.15' apply false
 }
 
 
@@ -23,5 +23,7 @@ tasks.register("clean", Delete) {
 }
 
 dependencies {
-        classpath 'com.android.tools.build:gradle:7.2.2' // Android build plugin
+        classpath 'com.android.tools.build:gradle:7.2.2' 
+        classpath 'com.google.gms:google-services:4.3.15'
+// Android build plugin
     }
